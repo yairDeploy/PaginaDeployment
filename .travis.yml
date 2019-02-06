@@ -1,0 +1,10 @@
+python:
+ - 2.7
+
+install:
+ - pip install django
+
+before_script:
+ - echo "Antes de ejecutar un script"
+
+script:
