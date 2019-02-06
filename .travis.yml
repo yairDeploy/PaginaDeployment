@@ -1,10 +1,20 @@
+language: python
 python:
- - 2.7
+  - 2.7
 
 install:
- - pip install django
+  - pip install django
 
 before_script:
- - echo "Antes de ejecutar un script"
+  - echo "Antes de ejecutar un script"
 
 script:
+  - echo "Hola mundo"
+  - pwd
+  - ls -language
+  - date
+  - cd lklklkl
+  - echo "finalizar"
+
+notifications:
+email: false
