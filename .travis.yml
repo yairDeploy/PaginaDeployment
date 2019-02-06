@@ -13,7 +13,6 @@ script:
   - pwd
   - ls
   - date
-  - cd lklklkl
   - echo "finalizar"
 
 notifications:
