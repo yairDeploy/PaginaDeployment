@@ -11,7 +11,7 @@ before_script:
 script:
   - echo "Hola mundo"
   - pwd
-  - ls -language
+  - ls
   - date
   - cd lklklkl
   - echo "finalizar"
